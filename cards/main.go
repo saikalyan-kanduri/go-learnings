@@ -4,12 +4,10 @@ import "fmt"
 
 func main() {
 
-	var card string = "Ace of Spades"
+	card := pickACard()
 	fmt.Println(card)
+}
 
-	firstCard := "Five of Diamonds"
-	fmt.Println(firstCard)
-
-	firstCard = "Two of Hearts"
-	fmt.Println(firstCard)
+func pickACard() string {
+	return "King"
 }
